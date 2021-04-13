@@ -343,7 +343,7 @@ do
 done
 
 # ALWAYS BUILD STATIC LIBRARIES
-BUILD_LIBRARY_OPTIONS="--enable-static --disable-shared";
+BUILD_LIBRARY_OPTIONS="--enable-shared --disable-static";
 
 # OPTIMIZE FOR SPEED INSTEAD OF SIZE
 if [[ -z ${MOBILE_FFMPEG_OPTIMIZED_FOR_SPEED} ]]; then
