@@ -390,7 +390,7 @@ ${SED_INLINE} 's/static int av_log_level/__thread int av_log_level/g' ${BASEDIR}
     --disable-manpages \
     --disable-podpages \
     --disable-txtpages \
-    --disable-static \
+    --disable-shared \
     --disable-sndio \
     --disable-schannel \
     --disable-securetransport \

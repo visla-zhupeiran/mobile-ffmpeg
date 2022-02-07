@@ -1,4 +1,4 @@
-#./ios.sh --disable-armv7 --disable-armv7s --disable-arm64e --disable-i386 --disable-x86-64-mac-catalyst  --enable-openh264 --enable-fontconfig --enable-freetype --enable-fribidi --enable-videotoolbox --enable-avfoundation
+./ios.sh --disable-armv7 --disable-armv7s --disable-arm64e --disable-i386 --disable-x86-64-mac-catalyst  --enable-openh264 --enable-fontconfig --enable-freetype --enable-fribidi --enable-gnutls
 DIR=/Users/vislaniap/Code/playground/mobile-ffmpeg/prebuilt/ios-x86_64/ffmpeg/lib/
 SHARE_DIR=./out/x86_64/lib/
 rm -f ${SHARE_DIR}libavcodec.dylib
